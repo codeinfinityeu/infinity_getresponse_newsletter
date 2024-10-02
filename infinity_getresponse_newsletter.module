@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function infinity_getresponse_newsletter_theme() {
+
+  return [
+    'newsletter_block' => [
+      'variables' => [
+        'form' => NULL
+      ],
+    ],
+  ];
+}

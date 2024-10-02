@@ -1,0 +1,8 @@
+# Settings
+infinity_getresponse_newsletter.settings:
+  path: '/admin/config/getresponse/newsletter'
+  defaults:
+    _title: 'Newsletter'
+    _form: \Drupal\infinity_getresponse_newsletter\Form\SettingsForm
+  requirements:
+    _permission: 'infinity_getresponse_newsletter admin'

@@ -1,0 +1,5 @@
+infinity_getresponse_newsletter admin:
+  title: 'Administer getresponse newsletter'
+  description: 'Allow to change getresponse newsletter settings'
+  restrict access: true
+

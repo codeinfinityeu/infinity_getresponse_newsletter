@@ -1,0 +1,14 @@
+name: 'GetResponse subscribe form'
+type: module
+description: 'Custom integration with GetResponse mailing list'
+package: 'Infinity'
+core_version_requirement: ^9 || ^10
+
+# Dependencies
+dependencies:
+  - drupal:user
+
+# Config
+configure: infinity_getresponse_newsletter.settings
+# Name
+project: 'infinity_getresponse_newsletter'

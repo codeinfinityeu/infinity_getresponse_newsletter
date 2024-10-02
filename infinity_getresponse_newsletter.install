@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * The installation instructions
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function infinity_getresponse_newsletter_uninstall()
+{
+    $config = \Drupal::service('config.factory');
+
+    $config = $config->getEditable('infinity_getresponse_newsletter.settings');
+    $config->delete();
+}

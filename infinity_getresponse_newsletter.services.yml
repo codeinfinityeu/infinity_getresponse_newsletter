@@ -1,0 +1,4 @@
+services:
+  infinity_getresponse_newsletter.newsletter:
+    class: Drupal\infinity_getresponse_newsletter\NewsletterService
+    arguments: [ '@config.factory' ]
